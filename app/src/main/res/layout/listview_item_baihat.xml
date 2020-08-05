@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imageViewBH"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/anhcotaima"
+        />
+    <TextView
+        android:id="@+id/tvTenBH"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Tên bài hát"/>
+</LinearLayout>
